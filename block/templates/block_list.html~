@@ -16,7 +16,7 @@
           <center><h1>just code4fun</h1></center>
           <p>feng's personal website</p>
         </div>
-        {% for b in blocks %}
+        {{% for b in blocks %}}
         <div class="panel panel-default">
           <div class="panel-heading">
             <span style="font-size: 18px;">{{b.name}}</span>
@@ -26,7 +26,7 @@
             {{b.desc}}
           </div>
         </div>
-        {% endfor %}
+        {{% endfor %}}
       </div>
       <div class="col-md-2">
         &nbsp;
